@@ -12,7 +12,7 @@ import { catchError } from 'rxjs/operators';
 })
 export class AppComponent {
   message: string = '';
-  private apiUrl = 'https://localhost:7168/WeatherForecast';
+  private apiUrl = 'http://localhost:7168/WeatherForecast';
 
   constructor(private http: HttpClient) { }
 
